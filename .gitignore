@@ -126,3 +126,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos
+
+# Realm
+*.realm.*
+*.realm
+snippets.xml
+snippets.json
