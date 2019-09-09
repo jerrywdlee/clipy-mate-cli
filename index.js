@@ -21,7 +21,7 @@ const readline = new ReadLine(clipy);
   const res = await github.readGist();
 
   if (settings && res) {
-    const menu = new Menu(settings, res, readline);
+    const menu = new Menu(settings, res, clipy, github, readline);
     await menu.showMenu();
   }
 
