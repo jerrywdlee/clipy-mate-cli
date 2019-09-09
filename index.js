@@ -2,6 +2,7 @@ const ClipyMate = require('clipy-mate-core');
 
 const ReadLine = require('./lib/readline');
 const GitHubGist = require('./lib/github');
+const Menu = require('./lib/menu');
 const Utils = require('./lib/utils');
 
 const clipy = new ClipyMate();
@@ -16,10 +17,13 @@ const readline = new ReadLine(clipy);
   }
   const settings = await Utils.loadSettings(settingsPath);
 
-  const gist = new GitHubGist(settings);
-  const res = await gist.readGist();
+  const github = new GitHubGist(settings);
+  const res = await github.readGist();
 
-  console.log(res);
+  if (settings && res) {
+    const menu = new Menu(settings, res, readline);
+    await menu.showMenu();
+  }
 
   clipy.disconnect();
   process.exit(0);
