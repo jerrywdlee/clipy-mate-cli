@@ -1,7 +1,10 @@
+'use strict';
+
 const ClipyMate = require('clipy-mate-core');
 
 const ReadLine = require('./lib/readline');
 const GitHubGist = require('./lib/github');
+const argv = require('./lib/argv');
 const Menu = require('./lib/menu');
 const Utils = require('./lib/utils');
 
@@ -22,7 +25,8 @@ const readline = new ReadLine(clipy);
 
   if (settings && res) {
     const menu = new Menu(settings, res, clipy, github, readline);
-    await menu.showMenu();
+    const argvkey = Utils.getArgvKeyword(argv);
+    await menu.showMenu(argvkey);
   }
 
   clipy.disconnect();

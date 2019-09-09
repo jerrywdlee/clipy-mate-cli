@@ -15,6 +15,7 @@
     "chalk": "^2.4.2",
     "clipy-mate-core": "file:../clipy-mate-core",
     "inquirer": "^7.0.0",
-    "ora": "^3.4.0"
+    "ora": "^3.4.0",
+    "yargs": "^14.0.0"
   }
 }
