@@ -22,6 +22,7 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
   - [User Interface](#user-interface)
   - [Command Line](#command-line)
   - [Config File](#configuration-file)
+  - [Gist Construction](#gist-construction)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -118,6 +119,14 @@ Configuration File saved at:
 ```sh
 $HOME/.clipy-mate-cli/settings.json
 ```
+
+### Gist Construction
+Clipy Mate will create a gist named `<YOUR_NAME>/ClipyMateCli` includes files below:  
+
+- `ClipyMateCli`, This file is Clipy Mate log file
+- `clipySnippets.json`, This file is snippets for download and import.
+- `clipySnippets.xml`, This file is as same as `clipySnippets.json` but can be imported by Clipy App
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
