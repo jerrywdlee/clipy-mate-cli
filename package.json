@@ -5,7 +5,9 @@
   "repository": "https://github.com/jerrywdlee/clipy-mate-cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --detectOpenHandles --forceExit",
+    "coverage": "npm test -- --coverage",
+    "send-to-coveralls": "jest --detectOpenHandles --forceExit --coverage --coverageReporters=text-lcov | coveralls"
   },
   "keywords": [
     "clipy",
@@ -24,5 +26,9 @@
     "inquirer": "^7.0.0",
     "ora": "^3.4.0",
     "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "jest": "^24.9.0"
   }
 }
