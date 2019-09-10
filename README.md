@@ -1,8 +1,10 @@
 # Clipy Mate Cli
+[![npm version](https://badge.fury.io/js/clipy-mate-cli.svg)](https://badge.fury.io/js/clipy-mate-cli)
+[![Known Vulnerabilities](https://snyk.io//test/github/jerrywdlee/clipy-mate-cli/badge.svg?targetFile=package.json)](https://snyk.io//test/github/jerrywdlee/clipy-mate-cli?targetFile=package.json)
+[![NPM](https://img.shields.io/npm/l/clipy-mate-cli)](https://www.npmjs.com/package/clipy-mate-cli)
 
-
-
-Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist
+Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist.  
+Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and inspired by [Settings Sync](https://github.com/shanalikhan/code-settings-sync).
 
 ## Introduction
 [Clipy](https://github.com/Clipy/Clipy) is a Clipboard extension app for macOS. Clipy Mate Cli allow user sync Clipy's snippets to their GitHub gist.  
@@ -32,28 +34,47 @@ Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist
 Use the package manager [npm](https://www.npmjs.com/) to install.
 
 ```bash
-npm i -g clipy-mate-cli
+$ npm i -g clipy-mate-cli
+$ clipy-mate
 ```
 
 Or just run it by `npx` command
 
 ```bash
-npx clipy-mate-cli
+$ npx clipy-mate-cli
 ```
 
 ## Usage
 ### Get Your GitHub Token
-- Login Your GitHub account
-- Visit https://github.com/settings/tokens/new
-- Input **Note** like `Clipy-Mate` and Check the **gist** checkbox
-- Click **[Generate token]** botton
-- Copy the token and memo it
+1. Login Your GitHub account
+2. Visit https://github.com/settings/tokens/new
+3. Input **Note** like `Clipy-Mate`
+4. Check the **gist** checkbox
+5. Click **[Generate token]** botton
+6. Copy the token and memo it
+
+![fig-1](./images/fig-1.png)  
+![fig-2](./images/fig-2.png)  
+![fig-3](./images/fig-3.png)  
+![fig-4](./images/fig-4.png)  
 
 ### User Interface
 
 ```sh
 $ clipy-mate
 ```
+
+#### Upload Snippets
+[![asciicast](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4.svg)](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4)
+
+#### Download and Merge Snippets
+[![asciicast](https://asciinema.org/a/EH7s2Jck0VHgtDbeZKFptFz2H.svg)](https://asciinema.org/a/EH7s2Jck0VHgtDbeZKFptFz2H)
+
+#### [Danger!] Download and Reset local snippets
+[![asciicast](https://asciinema.org/a/ryK1bbxkQgvEsbQfwVq2cWQts.svg)](https://asciinema.org/a/ryK1bbxkQgvEsbQfwVq2cWQts)
+
+#### Show Helper
+[![asciicast](https://asciinema.org/a/4TJqdS2lHkT6Po6Pm3lpntGTY.svg)](https://asciinema.org/a/4TJqdS2lHkT6Po6Pm3lpntGTY)
 
 ### Command Line
 *You can register commands below as cron jobs.*
@@ -79,7 +100,8 @@ $ clipy-mate --merge
 # Or
 $ clipy-mate merge
 
-# [Danger!] Clean up and Force Update local snippets
+# [Danger!] Download and Reset local snippets
+# It will delete all local snippets
 $ clipy-mate -f
 # Or
 $ clipy-mate --force
