@@ -1,12 +1,28 @@
 {
   "name": "clipy-mate-cli",
   "version": "0.1.0",
-  "description": "",
+  "description": "Clipy Mate Console Tools",
+  "repository": "https://github.com/jerrywdlee/clipy-mate-cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "clipy",
+    "clipy-mate-core",
+    "realm"
+  ],
+  "author": "Iuliana Caesaris <iuliana.augusta+github@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bin": {
+    "clipy-mate": "index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.28.9",
+    "chalk": "^2.4.2",
+    "clipy-mate-core": "^1.0.2",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0",
+    "yargs": "^14.0.0"
+  }
 }
