@@ -1,6 +1,6 @@
 # Clipy Mate Cli
-
-
+[![npm version](https://badge.fury.io/js/clipy-mate-cli.svg)](https://badge.fury.io/js/clipy-mate-cli)
+[![NPM](https://img.shields.io/npm/l/clipy-mate-cli)](https://www.npmjs.com/package/clipy-mate-cli)
 
 Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist
 
@@ -32,22 +32,29 @@ Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist
 Use the package manager [npm](https://www.npmjs.com/) to install.
 
 ```bash
-npm i -g clipy-mate-cli
+$ npm i -g clipy-mate-cli
+$ clipy-mate
 ```
 
 Or just run it by `npx` command
 
 ```bash
-npx clipy-mate-cli
+$ npx clipy-mate-cli
 ```
 
 ## Usage
 ### Get Your GitHub Token
-- Login Your GitHub account
-- Visit https://github.com/settings/tokens/new
-- Input **Note** like `Clipy-Mate` and Check the **gist** checkbox
-- Click **[Generate token]** botton
-- Copy the token and memo it
+1. Login Your GitHub account
+2. Visit https://github.com/settings/tokens/new
+3. Input **Note** like `Clipy-Mate`
+4. Check the **gist** checkbox
+5. Click **[Generate token]** botton
+6. Copy the token and memo it
+
+![fig-1](./images/fig-1.png)  
+![fig-2](./images/fig-2.png)  
+![fig-3](./images/fig-3.png)  
+![fig-4](./images/fig-4.png)  
 
 ### User Interface
 
