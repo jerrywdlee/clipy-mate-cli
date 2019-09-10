@@ -1,5 +1,7 @@
 # Clipy Mate Cli
 [![npm version](https://badge.fury.io/js/clipy-mate-cli.svg)](https://badge.fury.io/js/clipy-mate-cli)
+[![Build Status](https://travis-ci.org/jerrywdlee/clipy-mate-cli.svg?branch=master)](https://travis-ci.org/jerrywdlee/clipy-mate-cli)
+[![Coverage Status](https://coveralls.io/repos/github/jerrywdlee/clipy-mate-cli/badge.svg?branch=add-test)](https://coveralls.io/github/jerrywdlee/clipy-mate-cli?branch=add-test)
 [![Known Vulnerabilities](https://snyk.io//test/github/jerrywdlee/clipy-mate-cli/badge.svg?targetFile=package.json)](https://snyk.io//test/github/jerrywdlee/clipy-mate-cli?targetFile=package.json)
 [![NPM](https://img.shields.io/npm/l/clipy-mate-cli)](https://www.npmjs.com/package/clipy-mate-cli)
 
