@@ -1,4 +1,10 @@
+#!/usr/bin/env node
 'use strict';
+
+// create `realm-object-server` folder under `./realm`
+// See https://github.com/realm/realm-js/issues/1235#issuecomment-520330071
+const path = require('path');
+process.chdir(path.join(__dirname, './realm'));
 
 const ClipyMate = require('clipy-mate-core');
 
