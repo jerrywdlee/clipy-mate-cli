@@ -12,6 +12,19 @@ const clipy = new ClipyMate();
 const readline = new ReadLine(clipy);
 
 (async() => {
+  try {
+    const githubOpt = Utils.getGitHubInfo(argv);
+    if (githubOpt) {
+      await readline.updateSettings(githubOpt);
+      clipy.disconnect();
+      process.exit(0);
+    }
+  } catch (err) {
+    console.error(err);
+    clipy.disconnect();
+    process.exit(1);
+  }
+
   const vaildRes = await readline.validateSettings();
   const settingsPath = readline.opt.clipyMateCliSettingsPath;
 
