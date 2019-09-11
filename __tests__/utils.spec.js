@@ -1,10 +1,11 @@
 'use strict';
 
+const path = require('path');
 const Utils = require('../lib/utils');
 
 describe('Test Utils', () => {
   test('Should load json file', async () => {
-    const jsonPath = './__tests__/settings.json';
+    const jsonPath = path.join(__dirname, 'settings.json');
     const json = await Utils.loadSettings(jsonPath);
     expect(json).toBeTruthy();
     expect(json.gitHubToken.length).toBe(40);
