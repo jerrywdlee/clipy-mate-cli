@@ -11,6 +11,8 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
 ## Introduction
 [Clipy](https://github.com/Clipy/Clipy) is a Clipboard extension app for macOS. Clipy Mate Cli allow user sync Clipy's snippets to their GitHub gist.  
 
+![clipy-mate_demo](./images/clipy-mate_demo.gif)  
+
 **[Attention]** This package will access Clipy's [Realm](https://realm.io/) Database directly, so you may need to restart Clipy App if snippets downloaded.
 
 ## Table of Contents
@@ -66,6 +68,9 @@ $ npx clipy-mate-cli
 ```sh
 $ clipy-mate
 ```
+
+#### Init Clipy Mate
+[![asciicast](https://asciinema.org/a/IOy5n18cEipHVcaye6ocrR1dt.svg)](https://asciinema.org/a/IOy5n18cEipHVcaye6ocrR1dt)
 
 #### Upload Snippets
 [![asciicast](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4.svg)](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4)
