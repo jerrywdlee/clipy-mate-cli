@@ -11,6 +11,8 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
 ## Introduction
 [Clipy](https://github.com/Clipy/Clipy) is a Clipboard extension app for macOS. Clipy Mate Cli allow user sync Clipy's snippets to their GitHub gist.  
 
+![clipy-mate_demo](./images/clipy-mate_demo.gif)  
+
 **[Attention]** This package will access Clipy's [Realm](https://realm.io/) Database directly, so you may need to restart Clipy App if snippets downloaded.
 
 ## Table of Contents
@@ -22,6 +24,7 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
   - [User Interface](#user-interface)
   - [Command Line](#command-line)
   - [Config File](#configuration-file)
+  - [Gist Construction](#gist-construction)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -65,6 +68,9 @@ $ npx clipy-mate-cli
 ```sh
 $ clipy-mate
 ```
+
+#### Init Clipy Mate
+[![asciicast](https://asciinema.org/a/IOy5n18cEipHVcaye6ocrR1dt.svg)](https://asciinema.org/a/IOy5n18cEipHVcaye6ocrR1dt)
 
 #### Upload Snippets
 [![asciicast](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4.svg)](https://asciinema.org/a/iHafYV2T778U2NpWrrFgoMJa4)
@@ -118,6 +124,14 @@ Configuration File saved at:
 ```sh
 $HOME/.clipy-mate-cli/settings.json
 ```
+
+### Gist Construction
+Clipy Mate will create a gist named `<YOUR_NAME>/ClipyMateCli` includes files below:  
+
+- `ClipyMateCli`, This file is Clipy Mate log file
+- `clipySnippets.json`, This file is snippets for download and import.
+- `clipySnippets.xml`, This file is as same as `clipySnippets.json` but can be imported by Clipy App
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

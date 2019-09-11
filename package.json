@@ -1,6 +1,6 @@
 {
   "name": "clipy-mate-cli",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Clipy Mate Console Tools",
   "repository": "https://github.com/jerrywdlee/clipy-mate-cli",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@octokit/rest": "^16.28.9",
     "chalk": "^2.4.2",
-    "clipy-mate-core": "^1.0.2",
+    "clipy-mate-core": "^1.0.3",
     "inquirer": "^7.0.0",
     "ora": "^3.4.0",
     "yargs": "^14.0.0"
