@@ -8,6 +8,8 @@
 Sync Your [Clipy](https://clipy-app.com/) Snippets to Gist.  
 Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and inspired by [Settings Sync](https://github.com/shanalikhan/code-settings-sync).
 
+[English](./README.md) | [日本語](https://qiita.com/jerrywdlee/items/64690fba33ec91a6de0c)
+
 ## Introduction
 [Clipy](https://github.com/Clipy/Clipy) is a Clipboard extension app for macOS. Clipy Mate Cli allow user sync Clipy's snippets to their GitHub gist.  
 
@@ -31,7 +33,7 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
 
 ## Requirements
 - MacOS 10.10 and over
-- Clipy v1.1.2 and over
+- Clipy v1.2.0 and over
 - Node.js v8.9.0 and over
 
 ## Installation
@@ -128,9 +130,9 @@ $HOME/.clipy-mate-cli/settings.json
 ### Gist Construction
 Clipy Mate will create a gist named `<YOUR_NAME>/ClipyMateCli` includes files below:  
 
-- `ClipyMateCli`, This file is Clipy Mate log file
+- `ClipyMateCli`, This file is Clipy Mate upload info file.
 - `clipySnippets.json`, This file is snippets for download and import.
-- `clipySnippets.xml`, This file is as same as `clipySnippets.json` but can be imported by Clipy App
+- `clipySnippets.xml`, This file is as same as `clipySnippets.json` but can be imported by Clipy App.
 
 
 ## Contributing
