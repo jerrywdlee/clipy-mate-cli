@@ -6,7 +6,7 @@ const ClipyMate = require('clipy-mate-core');
 const schema = require('./schema.js');
 
 module.exports = async function (params) {
-  console.log('Runing setup.js');
+  console.log('Running setup.js');
   // console.log(params);
 
   process.chdir(path.join(__dirname, '.'));
