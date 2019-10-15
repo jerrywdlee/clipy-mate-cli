@@ -5,4 +5,4 @@ ignore: {}
 patch:
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - clipy-mate-core > realm > https-proxy-agent:
-        patched: '2019-10-03T21:32:55.191Z'
+        patched: '2019-10-07T08:20:26.664Z'

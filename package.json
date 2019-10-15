@@ -28,7 +28,7 @@
     "inquirer": "^7.0.0",
     "ora": "^3.4.0",
     "yargs": "^14.0.0",
-    "snyk": "^1.230.5"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.6",
