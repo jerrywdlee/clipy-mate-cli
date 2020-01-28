@@ -91,7 +91,14 @@ $ clipy-mate
 
 ```sh
 # helper
+$ clipy-mate -h
+# Or
 $ clipy-mate --help
+
+# Version
+$ clipy-mate -v
+# Or
+$ clipy-mate --version
 
 # Create or Update GitHub Settings
 $ clipy-mate -e -t <YOUR TOKEN> [-g <YOUR GIST ID>]
