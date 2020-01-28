@@ -1,6 +1,6 @@
 {
   "name": "clipy-mate-cli",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Clipy Mate Console Tools",
   "repository": "https://github.com/jerrywdlee/clipy-mate-cli",
   "main": "index.js",
