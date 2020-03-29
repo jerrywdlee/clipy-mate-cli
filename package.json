@@ -1,6 +1,6 @@
 {
   "name": "clipy-mate-cli",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Clipy Mate Console Tools",
   "repository": "https://github.com/jerrywdlee/clipy-mate-cli",
   "main": "index.js",
@@ -20,15 +20,15 @@
     "clipy-mate": "index.js"
   },
   "dependencies": {
-    "@octokit/rest": "^16.43.1",
-    "chalk": "^2.4.2",
-    "clipy-mate-core": "^1.1.0",
-    "inquirer": "^7.0.5",
-    "ora": "^3.4.0",
-    "yargs": "^14.2.2"
+    "@octokit/rest": "^17.1.4",
+    "chalk": "^3.0.0",
+    "clipy-mate-core": "^1.2.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3",
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.9",
-    "jest": "^24.9.0"
+    "coveralls": "^3.0.11",
+    "jest": "^25.2.3"
   }
 }
