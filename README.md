@@ -34,7 +34,7 @@ Powered by [Clipy Mate Core](https://github.com/jerrywdlee/clipy-mate-core) and 
 ## Requirements
 - MacOS 10.10 and over
 - Clipy v1.2.0 and over
-- Node.js v8.9.0 and over
+- Node.js v8.9.0 and < v12 ([Why?](https://github.com/realm/realm-js/issues/2418))
 
 ## Installation
 
