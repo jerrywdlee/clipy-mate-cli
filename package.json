@@ -20,12 +20,12 @@
     "clipy-mate": "index.js"
   },
   "dependencies": {
-    "@octokit/rest": "^17.1.4",
+    "@octokit/rest": "^20.0.0",
     "chalk": "^3.0.0",
     "clipy-mate-core": "^1.2.1",
-    "inquirer": "^7.1.0",
-    "ora": "^4.0.3",
-    "yargs": "^15.3.1"
+    "inquirer": "^9.0.0",
+    "ora": "^6.0.1",
+    "yargs": "^17.6.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.11",
