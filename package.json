@@ -20,7 +20,7 @@
     "clipy-mate": "index.js"
   },
   "dependencies": {
-    "@octokit/rest": "^17.1.4",
+    "@octokit/rest": "^22.0.0",
     "chalk": "^3.0.0",
     "clipy-mate-core": "^1.2.1",
     "inquirer": "^7.1.0",
