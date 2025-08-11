@@ -23,7 +23,7 @@
     "@octokit/rest": "^17.1.4",
     "chalk": "^3.0.0",
     "clipy-mate-core": "^1.2.1",
-    "inquirer": "^7.1.0",
+    "inquirer": "^8.2.7",
     "ora": "^4.0.3",
     "yargs": "^15.3.1"
   },
